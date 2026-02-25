@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
     // res.render(
     //    'sample',
         // {title:'DURGA PRASAD LAB',message:'WELCOME TO MEAN STACK LAB'})
-        const names = ['John Doe', 'Roger Roe', 'Paul Smith', 'Rebecca Jordan','prasasad'];
+        const names = ['John Doe', 'Roger Roe', 'Paul Smith', 'Rebecca Jordan','prasasad','Durga'];
         res.render('sample.pug', { 'names': names });
      
 });  
