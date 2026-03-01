@@ -13,6 +13,6 @@ app.get('/', function (req, res) {
         res.render('sample.pug', { 'names': names });
      
 });  
-var server = app.listen(5000, function () {  
+var server = app.listen(3000, function () {  
     console.log('Node server is running..');  
 });  
